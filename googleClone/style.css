@@ -1,11 +1,112 @@
-.googleNav{
+body {
+	background-color: white;
+	overflow: hidden;
+}
+
+.googleNav {
 	text-align: right;
 }
 
-.googleSearch {
-	text-align: center;
+.googleNav div {
+	display: inline-block;
+	margin: 0 10px;
 }
 
-.googleFoot {
+.googleNav div p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+	display: inline-block;
+	margin: 0 10px;
+}
 
+.googleNav div p a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.googleNav div p a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+
+.googleSearch {
+	position: absolute;
+	left: 32.35%;
+	top: 22%;
+}
+
+.googleSearch img:first-child {
+	padding-bottom: 30px;
+}
+
+.googleSearch input {
+	width: 500px;
+	height: 5.5%;
+
+	position: absolute;
+	left: -25%;
+	top: 55%;
+	
+	padding-bottom: 20px;
+
+	font-size: 25pt;
+}
+
+
+.googleFoot {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: black;
+
+}
+
+#emptyBar {
+	width: 101%;
+	height: 5.5%;
+	
+	background-color: #f2f2f2;
+	border-top-style: 5px solid black;
+
+	
+	position: absolute;
+	left: -1%;
+	bottom: -1%;
+
+}
+
+
+.leftFootLinks {
+	position: absolute;
+	left: 1.5%;
+	bottom: 1.5%;
+}
+
+.leftFootLinks a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.leftFootLinks a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+
+.rightFootLinks {
+	position: absolute;
+	right: 1.5%;
+	bottom: 1.5%;
+}
+
+.rightFootLinks a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.rightFootLinks a:hover {
+	text-decoration: underline;
+	color: black;
 }
